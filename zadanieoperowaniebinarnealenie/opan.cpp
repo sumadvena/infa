@@ -33,7 +33,7 @@ void czt_d() {
             continue;
         else if (s[s.size() - 1] == '0')
             licznikdwa++;
-        else if (s[s.size() - 3] == '0' && s[s.size() - 2] == '0')
+        else if (s[s.size() - 4] == '1')
             licznikosiem++;
     }
     cout << "Liczb podzielnych przez 2 jest: " << licznikdwa << ", a podzielnych przez 8: " << licznikosiem << endl;
